@@ -1,0 +1,153 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  max-width: 100%;
+  background: #000;
+  padding: 20px
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  max-width: 100%;
+  margin: auto;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.icon-logo {
+  background-image: url("../img//icon-logo.svg");
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.phone {
+  margin-left: auto;
+}
+
+.promo  {
+  background-image: url("../img//bg-promo.jpg");
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+
+.promo-wrapper {
+ width: 100%;
+ margin: 0 30px;
+
+}
+
+.promo-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  height: 700px;
+  
+}
+
+.promo-heading{
+margin: auto 0;
+
+
+}
+
+.promo-decoration{
+background-image: url("../img/promo-decoration.png");
+background-repeat: no-repeat;
+background-position: right;
+background-position-y: -10px;
+width: 50%;
+height: 100%;
+margin-left: auto;
+
+}
+
+.promo-title {
+  font-size: 64px;
+  color: #fff;
+  margin-bottom: 16px;
+  font-weight: bold;
+  
+
+  
+}
+
+.promo-description {
+  font-size: 24px;
+  color: #fff;
+  line-height: 32px;
+}
+
+input[type="text"] {
+  
+  border: 5px solid #000000
+}
